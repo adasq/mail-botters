@@ -1,0 +1,38 @@
+{
+  "author": "Adasq",
+  "name": "workouter",
+  "version": "0.0.1",
+  "homepage": "",
+  "licenses": {
+    "type": "MIT",
+    "url": ""
+  },
+   "engines": {
+    "node": "0.10.29"
+  },
+  "main": "./src/init.js",
+  "bugs": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node src/init.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "underscore": "latest",
+    "cheerio": "",
+        "q": "1.0.1",
+    "grunt": "~0.4.1",
+    "express": "~3.4.4",
+     "request": "2.37.0",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-clean": "^0.4.1",
+    "grunt-contrib-copy": "^0.4.1",
+    "grunt-contrib-jshint": "^0.4.3",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-watch": "^0.4.4",
+    "grunt-contrib-uglify": "^0.2.7"  
+  }
+}

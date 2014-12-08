@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CLIENT</title>
+
+<script src="rpc-bundle.js"></script> 
+
+<script>
+
+var klient = {
+  // output ============================
+  throwCard: function(cid){
+    return 'TABLE';
+  },  
+  //input ==============================
+  onCardToClient: function(cid){
+    //console.log(this);
+    this.throwCard('throwCard').then(function(result){
+      console.log(result);
+    });
+  }  
+};
+
+var endpoint = new RPC.EndpointManager('http://localhost', klient);
+
+
+
+</script>
+
+
+</head>
+
+<body>
+  klient
+
+</body>
+</html>
+
+
+ 
